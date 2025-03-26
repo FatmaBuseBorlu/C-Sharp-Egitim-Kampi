@@ -89,41 +89,88 @@ namespace _05_LoopsWithStars
             #endregion
 
             #region Baklava Dilimi
-            int n = 5;
-            int i, k, j, l;
+            //int n = 5;
+            //int i, k, j, l;
 
-            for (i = 1; i <= n; i++)
-            {
-                for (j = n - 1; j > 0; j--)
-                {
-                    Console.Write(" ");
-                }
-                for (k = 1; k < 2 * i - 1; k++)
-                {
-                    Console.Write("*");
-                }
+            //for (i = 1; i <= n; i++)
+            //{
+            //    for (j = n - 1; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    for (k = 0; k < 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
 
-                Console.WriteLine();
+            //    Console.WriteLine();
 
-            }
+            //}
 
-            for (i = n - 1; i >= 1; i--)
-            {
-                for (j = n - 1; j > 0; j--)
-                {
-                    Console.Write(" ");
-                }
+            //for (i = n - 1; i >= 1; i--)
+            //{
+            //    for (j = n - 1; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
 
-                for (l = 1; l < 2 * i; l++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //    for (l = 1; l < 2 * i; l++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
 
             #endregion
-            Console.Read();
 
+            #region Piramit
+            //int i, j, k, variable;
+            //Console.Write("Lütfen n değerini giriniz:");
+            //variable = int.Parse(Console.ReadLine());
+
+            //for (i = 1; i <= variable; i++)
+            //{
+
+            //    for (j = variable - i; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+
+            //    for (k = 1; k <= 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
+
+            #region Ters Piramit
+
+            //int i, j, k, variable;
+
+            //Console.Write("Lütfen piramitin yükseklik değerini giriniz:");
+            //variable = int.Parse(Console.ReadLine());
+            //for (i = variable; i >= 1; i--)
+            //{
+
+            //    //boşluklar
+            //    for (j = variable - 1; j > 0; j--)
+            //    {
+            //        Console.Write("");
+            //    }
+
+            //    //yıldızlar
+            //    for (k = 1; k <= 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+
+
+            Console.Read();
         }
     }
 }
